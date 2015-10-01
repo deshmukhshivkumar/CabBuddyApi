@@ -1,0 +1,1 @@
+D:\Other\Android\RESTAPI\CabBuddyAPI\CabBuddyAPI\obj\Debug\CabBuddyAPI.csprojResolveAssemblyReference.cache
