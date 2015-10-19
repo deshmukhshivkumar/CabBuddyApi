@@ -6,8 +6,8 @@ using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.Security.Claims;
 using System.Web.Http;
+using Cabbuddy.Models;
 using CabBuddyAPI.Filter;
-using CabBuddyAPI.Models;
 
 namespace CabBuddyAPI.Controllers
 {
@@ -28,7 +28,8 @@ namespace CabBuddyAPI.Controllers
         [Route("")]
         public IHttpActionResult Post(Group group)
         {
+
             return Ok(group);
-        }
+        }        
     }
 }

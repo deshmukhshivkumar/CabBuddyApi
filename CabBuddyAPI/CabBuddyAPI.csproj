@@ -86,7 +86,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Handlers\CustomDelegatingHandler.cs" />
-    <Compile Include="Models\Group.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +99,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CabBuddy.Business\CabBuddy.Business.csproj">
+      <Project>{73dd160d-cb07-4bf5-954c-e54d05a71a1d}</Project>
+      <Name>CabBuddy.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cabbuddy.Models\Cabbuddy.Models.csproj">
+      <Project>{f318a94b-37a6-4078-aa4c-ac7412e754aa}</Project>
+      <Name>Cabbuddy.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
