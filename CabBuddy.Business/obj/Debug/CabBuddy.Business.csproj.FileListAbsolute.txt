@@ -1,0 +1,11 @@
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\CabBuddy.Business.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\CabBuddy.Business.pdb
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\CabBuddy.DBProviders.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\Cabbuddy.Models.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\EntityFramework.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\CabBuddy.DBProviders.pdb
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\Cabbuddy.Models.pdb
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\bin\Debug\EntityFramework.xml
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\obj\Debug\CabBuddy.Business.csprojResolveAssemblyReference.cache
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\obj\Debug\CabBuddy.Business.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.Business\obj\Debug\CabBuddy.Business.pdb

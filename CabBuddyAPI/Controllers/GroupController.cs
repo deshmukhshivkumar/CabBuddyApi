@@ -11,10 +11,12 @@ using CabBuddyAPI.Filter;
 
 namespace CabBuddyAPI.Controllers
 {
-    [HMACAuthentication]
+    //[HMACAuthentication]
     [RoutePrefix("api/Group")]
     public class GroupController : ApiController
     {
+        readonly CabBuddy.Business.GroupController _groupController = new CabBuddy.Business.GroupController();
+  
         [Route("")]
         public IHttpActionResult Get()
         {
@@ -28,7 +30,7 @@ namespace CabBuddyAPI.Controllers
         [Route("")]
         public IHttpActionResult Post(Group group)
         {
-
+            _groupController.Save(group);
             return Ok(group);
         }        
     }
