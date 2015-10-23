@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 
-namespace CabBuddyAPI
+namespace CabBuddyAPI.App_Start
 {
     public static class WebApiConfig
     {
@@ -15,17 +12,17 @@ namespace CabBuddyAPI
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            //config.Routes.MapHttpRoute(
-            //    name: "DefaultApi",
-            //    routeTemplate: "api/{controller}/{id}",
-            //    defaults: new { id = RouteParameter.Optional }
-            //);
+            config.Routes.MapHttpRoute(
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{action}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
 
-            GlobalConfiguration.Configuration.Routes.MapHttpRoute(
-             name: "DefaultApi",
-             routeTemplate: "api/{controller}/{id}",
-             defaults: new { id = System.Web.Http.RouteParameter.Optional }
-           );
+            // GlobalConfiguration.Configuration.Routes.MapHttpRoute(
+            //  name: "DefaultApi",
+            //  routeTemplate: "api/{controller}/{id}",
+            //  defaults: new { id = System.Web.Http.RouteParameter.Optional }
+            //);
         }
     }
 }
