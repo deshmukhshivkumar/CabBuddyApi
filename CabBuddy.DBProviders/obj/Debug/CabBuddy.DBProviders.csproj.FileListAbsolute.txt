@@ -1,12 +1,3 @@
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.dll.config
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.dll
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.pdb
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.dll
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.SqlServer.dll
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.xml
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.SqlServer.xml
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\obj\Debug\CabBuddy.DBProviders.dll
-E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\obj\Debug\CabBuddy.DBProviders.pdb
 D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.dll.config
 D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.dll
 D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.pdb
@@ -16,3 +7,12 @@ D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.xml
 D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.SqlServer.xml
 D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\obj\Debug\CabBuddy.DBProviders.dll
 D:\Other\Android\CabBuddyApi\CabBuddy.DBProviders\obj\Debug\CabBuddy.DBProviders.pdb
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.dll.config
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\CabBuddy.DBProviders.pdb
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.SqlServer.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.xml
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\bin\Debug\EntityFramework.SqlServer.xml
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\obj\Debug\CabBuddy.DBProviders.dll
+E:\AndroidProjects\CabBuddyApi\CabBuddy.DBProviders\obj\Debug\CabBuddy.DBProviders.pdb

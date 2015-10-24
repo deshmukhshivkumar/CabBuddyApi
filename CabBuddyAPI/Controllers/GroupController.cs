@@ -11,7 +11,6 @@ using Cabbuddy.Models;
 
 namespace CabBuddyAPI.Controllers
 {
-    //[HMACAuthentication]
     //[RoutePrefix("api/Group")]
     public class GroupController : ApiController
     {
@@ -20,10 +19,6 @@ namespace CabBuddyAPI.Controllers
         //[Route("")]
         public IHttpActionResult Get()
         {
-            //var claimPrincipal = Request.GetRequestContext().Principal as ClaimsPrincipal;
-
-            //var name = ClaimsPrincipal.Current.Identity.Name;
-
             return Ok(Group.CreateGroup());
         }
 
