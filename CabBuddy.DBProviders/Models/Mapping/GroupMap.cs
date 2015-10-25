@@ -8,12 +8,9 @@ namespace CabBuddy.DBProviders.Models.Mapping
         public GroupMap()
         {
             // Primary Key
-            this.HasKey(t => new { t.Id, t.Name, t.CreatedBy, t.CreatedOn });
+            this.HasKey(t => t.Id);
 
             // Properties
-            this.Property(t => t.Id)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-
             this.Property(t => t.Name)
                 .IsRequired()
                 .HasMaxLength(50);
@@ -29,9 +26,6 @@ namespace CabBuddy.DBProviders.Models.Mapping
 
             this.Property(t => t.DriverNumber)
                 .HasMaxLength(50);
-
-            this.Property(t => t.CreatedBy)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
 
             // Table & Column Mappings
             this.ToTable("Group");

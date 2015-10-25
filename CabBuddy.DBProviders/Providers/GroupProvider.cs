@@ -15,6 +15,7 @@ namespace CabBuddy.DBProviders.Providers
                 return 0;
             using (var db = new CabBuddyContext())
             {
+                db.Database.Connection.Open();
                 db.Groups.Add(group);
                 db.SaveChanges();
                 return group.Id;

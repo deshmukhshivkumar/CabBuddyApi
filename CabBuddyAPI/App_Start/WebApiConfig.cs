@@ -9,6 +9,7 @@ namespace CabBuddyAPI.App_Start
             // Web API configuration and services
             //config.EnableCors();
 
+            config.EnableCors();
             // Web API routes
             config.MapHttpAttributeRoutes();
 
